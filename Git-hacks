@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------
+if you are like me i constantly forget to switch between my work git and personal, this command will help you switch the commits
+
+git filter-branch --env-filter '
+OLD_EMAIL="YOUR_OLD_EMAIL"
+CORRECT_NAME="YOUR_NEW_USERNAME"
+CORRECT_EMAIL="YOUR_NEW_EMAIL"
+if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
+then
+    export GIT_COMMITTER_NAME="$CORRECT_NAME"
+    export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
+fi
+if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]
+then
+    export GIT_AUTHOR_NAME="$CORRECT_NAME"
+    export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
+fi
+' --tag-name-filter cat -- --branches --tags
+
+
+git config user.email hendrikus.hpvk@gmail.com
+git config user.name 'vankatwijk'
+
+-------------------------------------------------------------------------
+rewriting a commit into the past
+
+git filter-branch --env-filter \
+    'if [ $GIT_COMMIT = 813f86b7d1245e5192c07fbb37060301bdfc640a ]
+     then
+         export GIT_AUTHOR_DATE="Sat Apr 26 21:30:53 2009 -0800"
+         export GIT_COMMITTER_DATE="Sun Apr 27 08:51:01 2007 -0700"
+     fi'
