@@ -25,8 +25,8 @@ git config user.name 'vankatwijk'
 rewriting a commit into the past
 
 git filter-branch --env-filter \
-    'if [ $GIT_COMMIT = 813f86b7d1245e5192c07fbb37060301bdfc640a ]
+    'if [ $GIT_COMMIT = 2bdebf7ee2383de5b587d17c34223c1f5e3ec386 ]
      then
-         export GIT_AUTHOR_DATE="Sat Apr 26 21:30:53 2009 -0800"
-         export GIT_COMMITTER_DATE="Sun Apr 27 08:51:01 2007 -0700"
+         export GIT_AUTHOR_DATE="Sun Apr 26 13:45:53 2020 -0800"
+         export GIT_COMMITTER_DATE="Sat Apr 27 12:46:01 2020 -0700"
      fi'
