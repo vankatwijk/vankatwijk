@@ -30,3 +30,23 @@ git filter-branch --env-filter \
          export GIT_AUTHOR_DATE="Sun Apr 26 13:45:53 2020 -0800"
          export GIT_COMMITTER_DATE="Sat Apr 27 12:46:01 2020 -0700"
      fi'
+-----------------------------------------------------------------------
+# Amend only AUTHOR_DATE. Careful, hash changes after amendment.
+git commit --amend --date="YYYY-MM-DDThh:mm:ss±hh:mm" -C 28f2d7b81e037aa4fcdf45f6353cb7c2aa10e336
+
+# Amend both COMMITTER_DATE and AUTHOR_DATE.
+GIT_COMMITTER_DATE="YYYY-MM-DDThh:mm:ss±hh:mm" git commit --amend --date="YYYY-MM-DDThh:mm:ss±hh:mm" -C HEAD~2
+
+
+-----------------------------------------------------------------------
+
+#before commit
+export GIT_AUTHOR_DATE="YYYY-MM-DDThh:mm:ss±hh:mm"
+export GIT_COMMITTER_DATE="YYYY-MM-DDThh:mm:ss±hh:mm"
+
+revert back, just close terminal or
+unset GIT_AUTHOR_DATE
+unset GIT_COMMITTER_DATE
+
+
+
