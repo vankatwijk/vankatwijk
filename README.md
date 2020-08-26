@@ -14,10 +14,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-## Hi 👋🏽,
-
-# I am Hendrikus van Katwijk 
-##an experienced Fullstack Software Developer 👨🏽‍💻.
+## Hi 👋🏽, I am Hendrikus van Katwijk 
+##I am experienced Fullstack Software Developer 👨🏽‍💻.
 
 
 - 🔭 I’m currently doing fullstack developement with Vue JS 💚 and Laravel ❤️.
