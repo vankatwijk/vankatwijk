@@ -30,8 +30,9 @@ Here are some ideas to get you started:
 {
   languages: ['PHP', 'Python', 'Java', 'JavaScript'],
   backend: ['Laravel', 'Node.js', 'Django'],
-  frontend: ['jQuery', 'Vue JS', 'React'],
-  database: ['MySql, PostgresSQL', 'MongoDB', 'Couchdb']
+  frontend: ['jQuery', 'Vue JS', 'Nuxt', 'React'],
+  database: ['MySql, PostgresSQL', 'MongoDB', 'Couchdb'],
+  mobile: ['Nativescript', 'Flutter']
 }
 ```
 
