@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 # Hi 👋, I am Hendrikus van Katwijk 
 ## An experienced Fullstack Software Developer with 10+ years experience 👨💻.
 
-- 🔭 I’m currently doing fullstack developement with Vue JS 💚 and Laravel ❤️.
+- 🔭 I’m currently doing fullstack developement with Vue JS , NativeScript 💚 and Laravel ❤️.
 - 🌱 I’m currently improving on my Laravel/Vue skills for building fullstack applications. I also love Python an NativeScript 💙.
 - 💻👯 I’m looking to work on awesome product(s) where I get to apply my skills as part of a fast-paced, quality-driven team and impact millions of lives positively.
 - 📫 How to reach me: [Gmail](mailto:Hendrikus.hpvk@gmail.com)
