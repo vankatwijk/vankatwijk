@@ -36,6 +36,6 @@ Here are some ideas to get you started:
 }
 ```
 
-# Life Principle 👨🏽‍🏫
+# Life Moto 👨🏽‍🏫
 
-To Always Stay Committed To My Goals and Never Give Up. Practice Patience, Perseverence, Resilience and Keep Growing At All Times.
+There is no wrong decision in life except taking no dicision at all
