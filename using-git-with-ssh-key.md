@@ -2,7 +2,9 @@
 
 ### most common problem is when you have multiple keys and git does not know which to use then you can force it
 forcing git to use a specific ssh key
+```
 git clone git@gitlab.svcs.int.<site-domain>.com:crm/v1.git --config core.sshCommand="ssh -i ~/certificates/site-domain"
+```
 
 # check these sites for reference
 ```
