@@ -32,7 +32,7 @@ Here are some ideas to get you started:
   backend: ['Laravel', 'Node.js', 'Django'],
   frontend: ['jQuery', 'Vue JS', 'Nuxt', 'React'],
   database: ['MySql, PostgresSQL', 'MongoDB', 'Couchdb'],
-  mobile: ['Nativescript', 'Flutter']
+  mobile: ['Nativescript', 'Flutter', 'PWA']
 }
 ```
 
