@@ -12,7 +12,7 @@ https://stackoverflow.com/questions/41714882/git-how-to-clone-with-ssh-key-usern
 https://www.toolsqa.com/git/clone-repository-using-ssh/
 ```
 
-# if the above sites done exist here is the relivant informaiton
+# if the above sites don't exist here is the relivant informaiton
 
 ### Step 1: Check for existing SSH keys
 ```
