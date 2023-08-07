@@ -39,3 +39,6 @@ Here are some ideas to get you started:
 # Life Moto 👨🏽‍🏫
 
 There is no wrong decision in life except taking no dicision at all
+
+
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
